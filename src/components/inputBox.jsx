@@ -59,7 +59,8 @@ function InputBox() {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex flex-col justify-center items-center h-screen">
+            <h1 className='font-bold text-2xl'>To Do App</h1>
             <div className="bg-white shadow-md rounded px-10 pt-6 pb-8 mb-4">
                 <div className="flex">
                     <input
